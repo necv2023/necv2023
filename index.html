@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--Adapted from: https://visual.cs.brown.edu/workshops/necv2019/-->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="./files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+
+    
+    <style type="text/css">
+  	body {
+  		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  		font-weight:300;
+  		font-size:18px;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 1100px;
+  	}
+  	
+  	h1 {
+  		font-size:36px;
+  		font-weight:300;
+  	}
+  	
+  	.disclaimerbox {
+  		background-color: #eee;		
+  		border: 1px solid #eeeeee;
+  		border-radius: 10px ;
+  		-moz-border-radius: 10px ;
+  		-webkit-border-radius: 10px ;
+  		padding: 20px;
+  	}
+    
+    .author_list {
+      font-size: 11pt;
+      color: #555;
+    }
+    .talk_title {
+      font-size: 12pt;
+    }
+
+  	video.header-vid {
+  		height: 140px;
+  		border: 1px solid black;
+  		border-radius: 10px ;
+  		-moz-border-radius: 10px ;
+  		-webkit-border-radius: 10px ;
+  	}
+  	
+  	img.header-img {
+  		height: 140px;
+  		border: 1px solid black;
+  		border-radius: 10px ;
+  		-moz-border-radius: 10px ;
+  		-webkit-border-radius: 10px ;
+  	}
+  	
+  	img.rounded {
+  		border: 1px solid #eeeeee;
+  		border-radius: 10px ;
+  		-moz-border-radius: 10px ;
+  		-webkit-border-radius: 10px ;
+  	}
+  	
+  	a:link,a:visited
+  	{
+  		color: #1367a7;
+  		text-decoration: none;
+  	}
+  	a:hover {
+  		color: #208799;
+  	}
+  	
+    table { 
+        border-collapse: collapse; 
+    }
+  	td.dl-link {
+  		height: 160px;
+  		text-align: center;
+  		font-size: 22px;
+  	}
+    tr {
+      border-top: 1pt solid black;
+      border-bottom: 1pt solid black;
+    }
+    
+    img.logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 256px;
+    }
+  	
+  	.vert-cent {
+  		position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+  	}
+  	
+  	hr
+  	{
+  		border: 0;
+  		height: 1px;
+  		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  	}
+  </style>
+
+  <title>NECV 2023</title>
+  </head>
+  <body>
+    
+    <div class="container brownbrown w-75" align="center">
+        <hr>
+        <h1><b>New England Computer Vision Workshop</b></h1>
+        <h3>Dartmouth College, Hanover, NH</h3>
+        <em><h3>Friday, December 1, 2023</h3></em>
+    </div>
+
+    <div class="container" align="center">
+        <img src="./files/header_img.jpg" width="90%" style="margin: 1em 0em 1em 0em; border: 1px solid #000"><br>
+    </div>
+
+    <div class="container w-75">
+        <hr>
+        <p>
+        The New England Computer Vision Workshop (NECV) brings together researchers in computer vision and related areas for an informal exchange of ideas through a full day of presentations and posters. NECV typically attracts around 100 people from universities and industry research labs in New England. As in previous years, the workshop will focus on graduate student presentations.
+        </p>
+
+        <p>
+          Welcome!<br><br>
+          <!--
+          - <a href="http://web.mit.edu/phillipi">Phillip Isola</a> and <a href="https://people.csail.mit.edu/pulkitag/">Pulkit Agrawal</a>
+          -->
+        </p>
+    </div>
+
+    <div class="container w-75">
+        <hr>
+        <h3>Registration</h3>
+        <p>
+            Participation is free for all researchers at academic institutions. Academic researchers should register <a href="" target="_blank">here</a>.
+        </p>
+        <p>
+        For our industry friends, a limited number of registrations are available for a fee. Please contact <a href="mailto:samson@ai.mit.edu" target="_blank">Samson Timoner - samson@ai.mit.edu</a> for details.
+        </p>
+        
+    </div>
+
+    <div class="container w-75">
+        <hr>
+        <h3>Submission</h3>
+        <p>
+        Please submit a one-page PDF abstract using the <a href="https://media.icml.cc/Conferences/CVPR2023/cvpr2023-author_kit-v1_1-1.zip">CVPR 2024 rebuttal template</a> by email to <a href="mailto:necv2023mit@gmail.com">necv2023dartmouth@gmail.com</a>. Abstracts are due by 11:59pm on <b>Monday, November 20</b>, 2022. Oral decisions will be released by November 27.
+        </p>
+
+        <p>
+        You may present work that has already been published, or work that is in progress. All submissions will be granted a poster presentation, and selected submissions from each institution will be granted 12-minute oral presentations. Post-docs and faculty may submit for poster presentations, but oral presentations are reserved for graduate students.
+        </p>
+
+        <p>
+        There will be <em>no publications</em> resulting from the workshop, so presentations will not be considered "prior peer-reviewed work" according to any definition we are aware of. Thus, work presented at NECV can be subsequently submitted to other venues without citation.
+        </p>
+
+        <p>
+        The workshop is after the CVPR submission deadline, so come and show off your new work in a friendly environment. It's also just before the NeurIPS conference, so feel free to come and practice your presentation.
+        </p>
+    </div>
+
+    <!--<div class="container w-75">
+        <hr>
+        <h3>Best Poster Competition Results</h3>
+
+        <ul>
+            <li></li>
+        </ul>
+    </div>-->
+
+    <div class="container w-75">
+        <hr>
+        <h3>Logistics</h3>
+        
+        <h4>Tentative Schedule</h4>
+        <p>
+        </p><table>
+            <tbody>
+            <tr>
+                <td width=150px>9:30-10:00</td>
+                <td width=200px>Coffee, snacks, poster setup</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:00-10:15</td>
+                <td>Welcome</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:15-11:45</td>
+                <td>Oral presentations 1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11:45-13:00</td>
+                <td>Lunch</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13:00-14:30</td>
+                <td>Poster presentations</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>14:30-15:45</td>
+                <td>Oral presentations 2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>15:45-16:00</td>
+                <td>Coffee</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16:00-17:15</td>
+                <td>Oral presentations 3</td>
+                <td>
+                </td>
+            </tr> 
+            </tbody>
+        </table>
+        <p></p>
+
+        <h4>WiFi</h4>
+        <p>
+        Logon to "Dartmouth Public" and accept the terms. Alternatively, if your home institution participates in eduroam, then you can also use eduroam to connect wirelessly while on our campus.
+        </p>
+
+        <h4>Getting here</h4>
+        <p>
+            The workshop will be held at the <b> Class of 1982 Engineering and Computer Science Center (15 Thayer Dr, Hanover, NH 03755) and Cummings Hall (10 Thayer Dr, Hanover, NH 03755)</b><br>
+            <br>
+            Getting there: to be updated. 
+            <br>
+            Parking: to be updated. 
+            <br> 
+            Hotel: special discouunts. 
+        </p>
+        <!--<iframe src="./NECV 2019_files/embed.html" width="75%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        
+        <br><img src="./NECV 2019_files/alumnaehall.jpg" width="75%" style="padding: 1em 0em 1em 0em"><br>
+    
+        <p>
+            <b>By train:</b> From the station, campus is a 15 minute walk up College Hill, or a short taxi ride. <em>From Boston:</em> MBTA and Amtrak services run regularly. Take a train south from South Station or Back Bay to Providence, RI. MBTA service is on the <a href="https://www.mbta.com/schedules/CR-Providence/timetable?direction_id=0">Providence/Stoughton line</a>. MBTA fares are $12.50 and takes 1:00-1:10 hr from South Station; Amtrak takes 40 minutes and costs $14 for early booking on the Northeastern train or up to $40-60 for the Acela train. <em>From New Haven, New London, NYC:</em> Amtrak service north to Providence, RI.
+        </p>
+
+        <p>
+            <b>By coach:</b> <a href="https://peterpanbus.com/">Peter Pan</a> coach services run throughout New England; come to Providence (downtown) and either walk (15 mins), take a local bus (RIPTA, $2), or use taxi services.
+        </p>
+
+        <p>
+            <b>Local buses:</b> <a href="https://www.ripta.com/">Rhode Island Public Transit Authority (RIPTA)</a> has a schedule and map, with real-time information through the "Transit" app. Buses 1, 32, 33 run to campus from downtown; walking is ~15 minutes.
+        </p>
+
+        <p>
+            <b>By car:</b> Brown has a visitor parking lot which costs $15 per day. <a href="https://www.brown.edu/about/administration/transportation/about/visitor-parking">Instructions here</a>. Entrance is on Brook Street <a href="https://www.google.com/maps/@41.8227839,-71.3992847,19z">(map)</a>. On-street parking within campus is extremely limited. Street parking ~10 minutes walk away has fewer restrictions.
+        </p>-->
+    </div>
+
+    <div class="container w-75">
+        <hr>
+        <h3>Sponsorship</h3>
+        To be updated.
+
+        <!--
+        <p>We are grateful to the MIT-IBM Watson AI Lab for providing the venue and logistical support. We thank Boston Dynamics, Shipin.ai, Google for providing funding.</p>
+        
+        <img class="logo" src="./files/mit-ibm_logo.png"/><br>
+        <img class="logo" src="./files/bd_logo.png"/><br>
+        <img class="logo" src="./files/shipin_logo.jpg"/><br>
+        <img class="logo" src="./files/google_logo.png"/><br>
+        -->
+    </div>
+
+    <div class="container w-75">
+        <hr>
+        <h3>Acknowledgements</h3>
+        <p>
+            To be updated. 
+            <!-- Thank you to Samson Timoner, James Tompkin, and Subhransu Maji for helping us arrange NECV 2023. Thank you also to the steering committee. : James Tompkin, Benjamin Kimia, Todd Zickler, Yun Raymond Fu, Octavia Camps, Kate Saenko, Erik Learned-Miller, and Subhransu Maji. -->
+        </p>
+        <h4>Past Years</h4>
+        <ul>
+            <li>2022 - MIT <a href="https://necv2022.github.io/">(website)</a></li>
+            <li>2019 - Brown University <a href="https://visual.cs.brown.edu/workshops/necv2019/">(website)</a></li>
+            <li>2018 - Harvard University <a href="https://projects.iq.harvard.edu/necv2018/">(website)</a></li>
+            <li>2017 - Northeastern University <a href="https://web.northeastern.edu/smilelab/necv2017/index.html">(website)</a></li>
+            <li>2016 - Boston University <a href="http://vision.cs.uml.edu/necv2016.html">(website)</a></li>
+            <li>2015 - UMass Amherst <a href="https://people.cs.umass.edu/~smaji/nevm2015/">(website)</a></li>
+        </ul>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="./NECV 2019_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./NECV 2019_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./NECV 2019_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+  
+</body></html>
